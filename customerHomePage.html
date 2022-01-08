@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6 lt8"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7 lt8"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8 lt8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
 <html lang="en" class="no-js">
-
+<!--<![endif]-->
 
 <head>
     <meta charset="UTF-8" />
-
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">  -->
     <title>Login and Registration Form with HTML5 and CSS3</title>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="./customerHomePage.css" />
@@ -22,10 +26,9 @@
 <body>
 
     <ul class="nav nav-tabs navbar-inverse">
-        
+        <li><a href="./indexCustomer.html">Back</a></li>
         <li class="active"><a href="#form1" data-toggle="tab">KYC Details </a></li>
         <li><a href="#form2" data-toggle="tab">View Requests</a></li>
-        <li><a href="./indexCustomer.html">Log Out</a></li>
 
 
     </ul>
@@ -37,6 +40,16 @@
 
                     <!-- Form Name -->
                     <legend align="center">Personal Details</legend>
+
+                    <!-- Text input-->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">Customer rating</label>
+                        <div class="col-md-4 inputGroupContainer">
+                            <div class="input-group">
+                                <label class="control-label" id="kyc_no"><span class="stars" id = "customer_rating">3.5</span></label>
+                            </div>
+                        </div>
+                    </div>
 
                     <!-- Text input-->
 
@@ -197,6 +210,20 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">Bank rating</label>
+                        <div class="col-md-4 inputGroupContainer">
+                            <div class="input-group">
+                                <label class="control-label" id="kyc_no"><span class="stars" id = "bank_rating">3.5</span></label>
+                            </div>
+                        </div>
+                    </div>
+
+                </fieldset>
+            </form>
+        </div>
+
 
 
 

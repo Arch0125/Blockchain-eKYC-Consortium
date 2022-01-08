@@ -1,6 +1,6 @@
 //  the address of the smart contract
 
-var contractAddress = '0x0';
+var contractAddress = '0xa5f8f419d5d1b25e9628ae7deb6351773730813e';
 
 //   Abstract Binary Interface of the contract code
 

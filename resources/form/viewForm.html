@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>View KYC</title>
+    <title>Form1</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../../scripts/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -24,7 +24,7 @@
     <!-- Theme CSS -->
     <link href="../../css/agency.css" rel="stylesheet">
 
- 
+
     <!--encryption decryption scripts-->
     <script language="JavaScript" type="text/javascript" src="../../RSA_JS/jsbn.js"></script>
     <script language="JavaScript" type="text/javascript" src="../../RSA_JS/jsbn2.js"></script>
@@ -233,6 +233,15 @@
                         </div>
                     </div>
 
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">Bank rating</label>
+                        <div class="col-md-4 inputGroupContainer">
+                            <div class="input-group">
+                                <label class="control-label" id="kyc_no"><span class="stars" id = "bank_rating">3.5</span></label>
+                            </div>
+                        </div>
+                    </div>
+
                 </fieldset>
             </form>
         </div>
@@ -249,7 +258,6 @@
     <script src="../../js/agency.min.js"></script>
 
     <!--Javascript for converting int to star rating-->
-    <!--Feature not used due to breaking of smart contract-->
     <script>
         $.fn.stars = function() {
             return $(this).each(function() {

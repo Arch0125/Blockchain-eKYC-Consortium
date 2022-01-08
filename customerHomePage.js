@@ -10,17 +10,20 @@ var deployedContract = kycContract.new({
 });
 var contractInstance = kycContract.at(contractAddress);
 
-
+//  account to make all transactions
 
 var current_account = web3.eth.accounts[0];
 var user_name = localStorage.username_c;
 
+//  function to fill customer data in form
 
 function fillForm() {
+    //  alert(user_name);
     var oldData = contractInstance.viewCustomer.call(user_name, {
         from: current_account,
         gas: 4700000
     });
+    //  alert(oldData);
     document.getElementById("customer_rating").innerHTML = contractInstance.getCustomerRating.call(user_name, {
         from: current_account,
         gas: 4700000
@@ -56,6 +59,7 @@ function fillForm() {
     })) / 100;
 }
 
+//  fill the KYC form
 
 fillForm();
 var arr = [];
@@ -71,6 +75,7 @@ function what() {
         arr.push(add);
         cnt++;
     }
+    //alert(arr[0]);
 }
 
 function allow(num) {
