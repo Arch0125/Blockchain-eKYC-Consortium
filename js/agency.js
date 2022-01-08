@@ -32,10 +32,3 @@
 
 })(jQuery); // End of use strict
 
-/*
-//save the name of the bank when it registers
-document.getElementById("sign_up").onclick
-
-//put the function for verifying if the log in account number is true here
-document.getElementById("log_in").onclick 
-*/
