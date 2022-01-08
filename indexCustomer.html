@@ -1,15 +1,10 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6 lt8"> <![endif]-->
-<!--[if IE 7 ]>    <html lang="en" class="no-js ie7 lt8"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en" class="no-js ie8 lt8"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!-->
 <html lang="en" class="no-js">
-<!--<![endif]-->
+
 
 <head>
     <meta charset="UTF-8" />
-    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">  -->
+
     <title>Login and Registration Form with HTML5 and CSS3</title>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="./index.css" />
@@ -26,7 +21,6 @@
         </header>
         <section>
             <div id="container_demo">
-                <!-- hidden anchor to stop jump http://www.css3create.com/Astuce-Empecher-le-scroll-avec-l-utilisation-de-target#wrap4  -->
                 <a class="hiddenanchor" id="toregister"></a>
                 <a class="hiddenanchor" id="tologin"></a>
                 <div id="wrapper">
@@ -35,11 +29,11 @@
                             <h1>Log in</h1>
                             <p>
                                 <label for="username" class="uname"> Username </label>
-                                <input id="username" name="username" required="required" type="text" placeholder="myusername or mymail@mail.com" />
+                                <input id="username" name="username" required="required" type="text" placeholder="username_2" />
                             </p>
                             <p>
                                 <label for="password" class="youpasswd"> Password </label>
-                                <input id="password" name="password" required="required" type="password" placeholder="eg. X8df!90EO" />
+                                <input id="password" name="password" required="required" type="password" placeholder="Wallet Public address eg. 0x0..." />
                             </p>
                             <p class="signin button">
                                 <input type="submit" value="Log In" onclick="return onClickLogin()" />
@@ -56,15 +50,15 @@
                             <h1> Sign up </h1>
                             <p>
                                 <label for="usernamesignup" class="uname">Username</label>
-                                <input id="usernamesignup" name="usernamesignup" required="required" type="text" placeholder="mysuperusername690" />
+                                <input id="usernamesignup" name="usernamesignup" required="required" type="text" placeholder="Username" />
                             </p>
                             <p>
                                 <label for="passwordsignup" class="youpasswd">Password</label>
-                                <input id="passwordsignup" name="passwordsignup" required="required" type="password" placeholder="eg. X8df!90EO" />
+                                <input id="passwordsignup" name="passwordsignup" required="required" type="password" placeholder="eg. 0x0..." />
                             </p>
                             <p>
                                 <label for="passwordsignup_confirm" class="youpasswd">Confirm your password</label>
-                                <input id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" type="password" placeholder="eg. X8df!90EO" />
+                                <input id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" type="password" placeholder="eg. 0x0..." />
                             </p>
                             <p class="signin button">
                                 <input type="submit" value="Sign up" onclick="onClickSignUp()" />

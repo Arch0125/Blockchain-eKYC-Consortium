@@ -48,7 +48,7 @@ function onSignUp() {
         gas: 4700000
     });
     alert(bank_name1 + " has been successfully added to the network!");
-    alert("Login from the \"Login\" Tab on the top-right side of the webpage. \n Thank you for choosing KYC chain!");
+    alert("Login from the \"Login\" Tab on the top-right side of the webpage. \n Thank you for choosing UeKC!");
 }
 
 // this function is called on clicking log in button in the pop up that appears while logging in 
