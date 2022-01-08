@@ -35,6 +35,10 @@ Hence, the security of Blockchain is achieved along with the flexibility and sca
 5. Once approved the other bank can also access it.
 6. Modification can also be done by the Bank.
 
+# Future Progress
+IPFS will be integrated into the application so that file transfer is also possible. Also a second ethereum layer like Polygon will be used to make sure there are gas-less transaction when deployed to main-net. Also video-KYC will be implemented where the customer can upload live pictures for verification.
+Outside Finance, this system can also be used in Hospitals where a patients data can be stored over a blockchain network and can be accessed by hospitals. Such implementation would reduce the use of paper prescriptions and better record handling. Moreover it can eliminate modifications and hence any kind of illegal activities done using them can be reduced.
+
 # Templates used :
 1. Bootstrap Agency for Front-page
 2. Bootstrap NavBar - Used in bank homepage, customer homepage
