@@ -1,4 +1,4 @@
 # Blockchain-eKYC-Consortium
 
-#Templates used :
+Templates used :
 >Bootstrap Agency
