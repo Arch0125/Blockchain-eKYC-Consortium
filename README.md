@@ -8,8 +8,8 @@ Hence, the security of Blockchain is achieved along with the flexibility and sca
 
 Templates used :
 1. Bootstrap Agency for Front-page
-2. Bootstrap NavBar 
-3. Bootstrap/jquery Form 
+2. Bootstrap NavBar - Used in bank homepage, customer homepage
+3. Bootstrap/jquery Form - Used in Add form, View form, Modify form
 
 # Requirements
 1. Nodejs
