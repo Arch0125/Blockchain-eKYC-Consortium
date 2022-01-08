@@ -8,6 +8,7 @@ Hence, the security of Blockchain is achieved along with the flexibility and sca
 
 Templates used :
 >Bootstrap Agency
+>Bootstrap NavBar
 
 # Requirements
 1. Nodejs
