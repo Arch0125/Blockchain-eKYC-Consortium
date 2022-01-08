@@ -7,8 +7,8 @@ Although complete Decentralisation creates a different problem that is immutabil
 Hence, the security of Blockchain is achieved along with the flexibility and scalibility required.
 
 Templates used :
->Bootstrap Agency
->>Bootstrap NavBar
+1. Bootstrap Agency
+2. Bootstrap NavBar
 
 # Requirements
 1. Nodejs
