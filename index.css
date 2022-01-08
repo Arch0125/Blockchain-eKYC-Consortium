@@ -76,11 +76,11 @@ a{
     text-align: center;
 }
 .container > header h1{
-	font-family: 'Raleway', sans-serif;
+	font-family: "Montserrat",'Raleway', sans-serif;
 	font-size: 35px;
 	line-height: 35px;
 	position: relative;
-	color:#000000;
+	color:#ffffff;
     padding: 0px 0px 5px 0px;
 	font-weight:600;
 }
