@@ -33,6 +33,7 @@ Hence, the security of Blockchain is achieved along with the flexibility and sca
 3. The Username is given to to the user to sign up on the customer portal and view KYC form.
 4. When some other bank wants access to the KYC an approval request is sent to the Owner.
 5. Once approved the other bank can also access it.
+6. Modification can also be done by the Bank.
 
 # Templates used :
 1. Bootstrap Agency for Front-page
